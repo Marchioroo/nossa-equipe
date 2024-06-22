@@ -5,25 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho em equipe</title>
     <style>
-         .group{
+         *{
+        font-family: sans-serif;
+    }
+        .group{
         display:flex;
         justify-content: space-between;
         padding:10px;
         
     }
-        .botao{
-        width: 80px;
-        height: 30px;
-        background-color:rgb(70, 70, 70);
-        color:bisque;
-        display:flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        border-radius:10px;
-        font-weight: bold;
 
-    }
+    .botao a{
+        
+    width: 80px;
+    height: 30px;
+    background-color: rgb(70, 70, 70);
+    color: bisque;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-style: none;
+    text-decoration: none;
+}
         body{
             background-image: linear-gradient(to right, #13293d, #006494);
         }
@@ -46,8 +52,8 @@
 
 <body>
     <div class="group">
-        <div class="botao">anterior </div>
-        <div class="botao">próxima </div>
+        <div class="botao"><a href="leonardo.html" >anterior</a></div>
+        <div class="botao"><a href="bruna.html" >próxima</a></div>
     </div>
     <h1>Nosso trabalho em equipe.</h1>
     <p>Essa é nossa equipe de futuros desenvolvedores.</p>
